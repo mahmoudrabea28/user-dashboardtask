@@ -73,4 +73,4 @@
 ## Angular Material
 ## NgRx (for state management)
 ## RxJS (for asynchronous operations)
-## SCSS (for styling and animations)
+## SCSS (for styling)
