@@ -64,7 +64,7 @@
 
 ##### Project Structure
 ## src/app/
-##     Contains page components (User-List, user-list-page2, User-Details)
+##     Contains page components (user-list, user-list-page2, user-details)
 ##     services/ - Contains service for HTTP requests and caching
 ##     store/ - Contains NgRx state management files
 
