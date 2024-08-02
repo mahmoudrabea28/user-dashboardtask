@@ -1,0 +1,62 @@
+.avatar {
+    background-image: url('/path-to-avatar-placeholder');
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .headercontainer{
+    width: 100wh;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3f51b5;
+    font-size: 25px;
+    font-weight: bold;
+    }
+    
+  button{
+    text-align: center;
+    margin-top: 20px;
+  }
+  img{
+    width: 400px;
+    border-radius: 50%;
+  }
+  mat-card{
+    width: 500px;
+    height: 580px;
+    align-items: center;
+  }
+  mat-card-title{
+    margin-bottom:15px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  mat-card-content{
+    font-size: 18px;
+    margin-top: 15px;
+  }
+
+  @media (max-width: 601px) {
+    mat-card{
+      height: 380px;
+      width: 300px;
+    }
+    .container{
+      margin-top: 30px;
+      gap: 10px;
+    }
+    img{
+      width: 200px;
+    }
+    .headercontainer{
+      height: 50px;
+      font-size: 21px;
+    }
+  }

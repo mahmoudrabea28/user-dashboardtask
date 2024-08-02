@@ -1,0 +1,26 @@
+<div class="headercontainer">
+  <div>
+    <span>User Dashboard</span>
+    <span class="spacer"></span>
+    <input placeholder="Search by ID" [(ngModel)]="searchQuery" (input)="searchUser()"  />
+  </div>
+
+</div>
+
+<div *ngIf="isLoading">
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+  </div>
+  <div class="container" *ngIf="!isLoading">
+    <div *ngFor="let user of users" class="user-card" (click)="viewDetails(user.id)">
+      <mat-card>
+        <mat-card-header>
+          <div class="avatar"></div>
+          <mat-card-title>{{ user.first_name }} {{ user.last_name }}</mat-card-title>
+        </mat-card-header>
+        <img [src]="user.avatar" alt="{{ user.first_name }}">
+      </mat-card>
+    </div>
+    
+    <button color="primary" mat-flat-button (click)="goBack()">Page2</button>
+  </div>
+  
