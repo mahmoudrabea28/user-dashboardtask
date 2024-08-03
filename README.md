@@ -5,7 +5,8 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.14.
 
 ## Development server
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to
+`http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Build
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
@@ -22,10 +23,12 @@ page3
 
 ## Data Retrieval:
 Fetch user card data from ReqRes API
+
 Fetch detailed user information from ReqRes API
 
 ## Navigation:
 Click user cards to navigate to a detailed user page
+
 Back button on the user details page to return to the main user list
 
 ## Search Functionality:
@@ -36,6 +39,7 @@ Optimized performance with caching mechanisms to avoid redundant HTTP requests
 
 ## User Experience:
 Loading bar for network request status
+
 Smooth user interface 
 
 ## State Management:
@@ -49,6 +53,7 @@ Applied Angular Material components for consistent styling
 
 ## Project Structure
 src/app/
+
   Contains page components
   (userlist, user-list-page2,
   user-details)
@@ -61,8 +66,13 @@ src/app/
 
 ## Technologies Used
 Angular 16
+
 Angular Material
+
 NgRx (for state management)
+
 RxJS (for asynchronous operations)
+
 SCSS (for styling)
+
 AI tools
